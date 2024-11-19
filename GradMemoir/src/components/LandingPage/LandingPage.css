@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+body{
+  margin: 0;
+  padding: 0;
+}
+.landing-page {
+    font-family: Arial, sans-serif;
+  }
+  /* Pre-Footer Banner Styling */
+.pre-footer {
+    background-color: #871f1f; /* Light gray */
+    text-align:left;
+    padding: 20px 0; /* 20px top and bottom */
+    padding-left: 9.5%;
+    font-family: 'Cormorant Garamond', serif; 
+}
+
+.pre-footer p {
+    font-size: 17px;
+    color: white;
+    font-weight: bold;
+}
+
+.alumni-story {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+
+  /* Black section (top half) */
+  .top-section {
+    background-color: rgb(56, 4, 4);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    height: 50vh;  /* Half of the viewport height */
+    justify-content: center;
+    align-items: center;
+    padding: 90px 0;
+  }
+  .social-media {
+    text-align: center; /* Centers the icons */
+    margin-top: 20px; /* Adds space above the icons */
+}
+
+.social-media a img {
+    width: 30px; /* Adjust this value */
+    height: 30px; /* Adjust this value */
+    object-fit: contain;
+    margin: 0 10px; /* Space between the icons */
+  
+}
+
+.social-media a {
+    display: inline-block; /* Ensures the icons are horizontally aligned */
+}
+
+  .logo-and-get-started {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    margin-top: 120px;  /* Add some space from the top */
+  }
+  
+  .logo {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Cormorant Garamond', serif; /* Apply the custom font */
+  }
+  
+  .get-started {
+    background-color: rgba(255, 255, 255, 0.2); /* Semi-transparent white */
+    color: white;
+    border: none; /* Remove border */
+    padding: 10px 20px; /* Adjust padding */
+    margin-top: 20px;
+    cursor: pointer;
+    width: auto; /* Ensure width adjusts to content */
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+  }
+  
+  .get-started:hover {
+    background-color: rgba(255, 255, 255, 0.4); /* Lighten the transparency on hover */
+    color: white; /* Keep the text color white */
+  }
+  
+  /* Content section: Left text and right carousel */
+  .content-container {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .text-section {
+    width: 45%;
+    text-align: left;
+    padding-bottom: 30%;
+    font-family: 'Cormorant Garamond', serif; 
+  }
+  
+  .text-section h1 {
+    font-family: 'Cormorant Garamond', serif; 
+    font-weight: 500;
+    color:  #faf6f3;
+    font-size: 44px;
+    letter-spacing: -0.01em;
+    text-transform: none;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeUp 0.8s ease forwards;
+ 
+  }
+  
+  .text-section h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 300;
+    font-size: 24px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+   color: #f2f2f2 ;
+    margin-bottom: 300px;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeUp 0.8s ease forwards 0.2s;
+  }
+  @keyframes fadeUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+  .carousel-section {
+    width: 40%;
+
+ 
+    /* Add max-width for the carousel to maintain its size */
+  }
+  
+  .carousel .slide img {
+    width: 40%;
+    height: 40%;
+  }
+  /* Move the social media icons to the bottom left */
+.bottom-section {
+    background-color: white;
+    padding: 40px 60px;
+    display: flex;
+    justify-content: space-between;
+    position: relative; /* Add relative positioning to the parent */
+}
+.bottom-desc
+{
+    font-size: 13px;
+    font-family: 'Cormorant Garamond', serif;
+}
+/* Adjust the social media container */
+.social-media {
+    position: absolute;
+    bottom: 20px; /* Distance from the bottom of the section */
+    left: 20px;   /* Distance from the left of the section */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Style the individual social media icons */
+.social-media a img {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+}
+
+/* Ensure the rest of the layout doesn't affect the positioning */
+.left-section {
+    width: 50%;
+}
+
+.bottom-logo {
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Cormorant Garamond', serif; 
+}
+
+
+  /* White section (bottom half) */
+  .bottom-section {
+    background-color:rgb(211, 185, 185);
+    color: black;
+      text-align: left;
+    padding: 50px 30px;
+
+  }
+  
+  .footer {
+    margin-top: 20px;
+  }
+  
+  .footer a {
+    margin: 0 10px;
+    color: black;
+    text-decoration: none;
+  }
+  
+  hr {
+    margin-top: 20px;
+    border: 1px solid #ddd;
+  }
+  
